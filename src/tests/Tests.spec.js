@@ -28,8 +28,7 @@ export function handleSummary(data) {
 }
 
 export default function () {
-  const baseUrl =
-    'https://datausa.io/api/data?drilldowns=Nation&measures=Population';
+  const baseUrl = 'https://datausa.io/api/data?drilldowns=Nation&measures=Population';
   const params = { headers: { 'Content-Type': 'application/json' } };
   const OK = 200;
 
