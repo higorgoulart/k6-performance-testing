@@ -9,7 +9,7 @@ export const RateContentOK = new Rate('content_OK');
 
 export const options = {
   thresholds: {
-    getPopulationDuration: ['p(95)<5700'],
+    get_population_duration: ['p(95)<5700'],
     http_req_failed: ['rate<0.12'],
     content_OK: ['rate>0.95']
   },
